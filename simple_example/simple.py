@@ -11,7 +11,7 @@ if __name__ == '__main__':
     print('sin(pi) = {:0.2f}'.format(sin(pi)))
 
     xs = [1, 2, 3, 4]
-    x = 6
+    x = 3
     if x in xs:
         print('{} is in {}'.format(x, xs))
     else:
