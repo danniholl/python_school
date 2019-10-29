@@ -16,8 +16,8 @@ print(guests[1]+' you are invited to dinner at '+location+' on '+time+'.')
 print(guests[2]+' you are invited to dinner at '+location+' on '+time+'.')
 
 # Part 3 - Joe Cannot make it and we need to add someone else to the list and invite them.
-# Here I delete Joe from the list and insert Mary in his place
-# I then send Mary an invitation
+# Here I delete Joe from the list and insert Mary in his place.
+# I then send Mary an invitation.
 del guests[1]
 guests.insert(1, 'Mary')
 print(guests[1]+' you are invited to dinner at '+location+' on '+time+'.')
