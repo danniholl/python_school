@@ -1,0 +1,21 @@
+# squares = []
+# numbs = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# for numb in numbs:
+#     square = numb**2
+#     squares.append(square)
+# print(squares)
+
+# squares1_5 = []
+# for number in range(1, 6):
+#     square = number ** 2
+#     squares1_5.append(square)
+# print(squares1_5)
+#
+# squares6_10 = []
+# for number in range(6, 11):
+#     square = number ** 2
+#     squares6_10.append(square)
+# print(squares6_10)
+#
+# squares1_5.extend(squares6_10)
+# print(squares1_5)
