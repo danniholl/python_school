@@ -40,4 +40,3 @@ for letter in word:                                                 # For each l
     cipher_word += cipher[letter]                                   # Adding the ciphered letters to build the word
 
 print(cipher_word)                                                  # Printing the ciphered word.
-;
