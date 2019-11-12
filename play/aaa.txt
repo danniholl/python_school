@@ -1,0 +1,11 @@
+addins
+    FXSEXT.ecf
+appcompat
+    appraiser
+        AltData
+        Appraiser_AlternateData.cab
+        APPRAISER_TelemetryBaseline_19H1.bin
+        APPRAISER_TelemetryBaseline_20H1.bin
+        APPRAISER_TelemetryBaseline_UNV.bin
+        Telemetry
+    Programs
