@@ -7,13 +7,12 @@
 # files for each problem, I would be more than happy to upload them, just message me on canvas. I would go ahead and
 # upload them, but that would defeat the entire purpose of combining them.
 
-
-# PROBLEM 1 - The triangle calculator
-# The goal of this code is to take three sides of a triangle from a user and to compute the angles of said triangle.
 from math import degrees
 from math import acos
 from decimal import Decimal
 
+# PROBLEM 1 - The triangle calculator
+# The goal of this code is to take three sides of a triangle from a user and to compute the angles of said triangle.
 # First I will receive the sides of the triangle from the user
 side_a = int(input('What is side a? '))
 side_b = int(input('What is side b? '))
@@ -44,6 +43,7 @@ for r in rs:
     print('For Richter value '+str(r)+', the energy released is '+str(e)+' Joules.')
     print('The equivalent energy released in tons of TNT is '+str(tnt)+' tons of tnt.\n')
 print('\n\n\n')
+
 
 # PROBLEM 3, the rental car calculator
 # First I will receive input from the user and check if they used a valid input.
