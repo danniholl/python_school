@@ -16,4 +16,4 @@ for r in rs:
     e = '%.5E' % Decimal(10**((1.5*r)+4.8))
     tnt = '%.5E' % Decimal(float(e) / (4.184*10**9))
     print('For Richter value '+str(r)+', the energy released is '+str(e)+' Joules.')
-    print('The equivalent energy released in tons of TNT for Richter value '+str(r)+' is '+str(tnt)+' tons of tnt.\n')
+    print('The equivalent energy released in tons of TNT is '+str(tnt)+' tons of tnt.\n')
